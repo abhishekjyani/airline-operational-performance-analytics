@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+title: "Airline Operational Performance Analytics"
+message: "If you use this project, please cite it using this metadata."
+type: software
+authors:
+  - family-names: Jyani
+    given-names: Abhishek
+year: 2026
