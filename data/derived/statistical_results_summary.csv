@@ -1,0 +1,7 @@
+analysis,statistic,p_value,ci95_low,ci95_high,effect_size
+Overall mean arrival delay,3.7566139288374383,,3.602429968714482,3.9107978889603947,
+ANOVA across major airlines,215.87691879395248,0.0,,,0.005344898605418245
+Chi-square: cancellation vs airline,3901.343582693352,0.0,,,0.08501821472803413
+Chi-square: departure period vs delayed15,3552.444292280625,0.0,,,0.08247389659540867
+OLS R-squared,0.96928713207074,,,,
+OLS adjusted R-squared,0.9692809882171847,,,,

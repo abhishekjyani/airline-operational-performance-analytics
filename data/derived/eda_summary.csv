@@ -1,0 +1,14 @@
+Metric,Value
+Total flights,539747.0
+Completed flights,522269.0
+Cancelled flights,16312.0
+Diverted flights,1166.0
+Cancellation rate (%),3.022156677109831
+Arrival delay >=15 min rate among completed (%),18.78916803409737
+Departure delay >=15 min rate among completed (%),18.202880124993058
+"Mean arrival delay, completed (min)",3.7566139288374383
+"Median arrival delay, completed (min)",-8.0
+"Mean departure delay, completed (min)",10.235941631611295
+"Median departure delay, completed (min)",-3.0
+Mean taxi-out time (min),19.051419862178303
+Mean taxi-in time (min),8.317390080590654

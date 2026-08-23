@@ -1,0 +1,52 @@
+column,dtype,description
+Year,int64,BTS source field retained for operational analysis
+Quarter,int64,BTS source field retained for operational analysis
+Month,int64,BTS source field retained for operational analysis
+DayofMonth,int64,BTS source field retained for operational analysis
+DayOfWeek,int64,BTS source field retained for operational analysis
+FlightDate,object,BTS source field retained for operational analysis
+Reporting_Airline,object,BTS source field retained for operational analysis
+IATA_CODE_Reporting_Airline,object,BTS source field retained for operational analysis
+Tail_Number,object,BTS source field retained for operational analysis
+Flight_Number_Reporting_Airline,int64,BTS source field retained for operational analysis
+Origin,object,BTS source field retained for operational analysis
+OriginCityName,object,BTS source field retained for operational analysis
+OriginState,object,BTS source field retained for operational analysis
+Dest,object,BTS source field retained for operational analysis
+DestCityName,object,BTS source field retained for operational analysis
+DestState,object,BTS source field retained for operational analysis
+CRSDepTime,int64,BTS source field retained for operational analysis
+DepTime,float64,BTS source field retained for operational analysis
+DepDelay,float64,BTS source field retained for operational analysis
+DepDelayMinutes,float64,BTS source field retained for operational analysis
+DepDel15,float64,BTS source field retained for operational analysis
+CRSArrTime,int64,BTS source field retained for operational analysis
+ArrTime,float64,BTS source field retained for operational analysis
+ArrDelay,float64,BTS source field retained for operational analysis
+ArrDelayMinutes,float64,BTS source field retained for operational analysis
+ArrDel15,float64,BTS source field retained for operational analysis
+Cancelled,float64,BTS source field retained for operational analysis
+CancellationCode,object,BTS source field retained for operational analysis
+Diverted,float64,BTS source field retained for operational analysis
+CRSElapsedTime,float64,BTS source field retained for operational analysis
+ActualElapsedTime,float64,BTS source field retained for operational analysis
+AirTime,float64,BTS source field retained for operational analysis
+Flights,float64,BTS source field retained for operational analysis
+Distance,float64,BTS source field retained for operational analysis
+TaxiOut,float64,BTS source field retained for operational analysis
+TaxiIn,float64,BTS source field retained for operational analysis
+CarrierDelay,float64,BTS source field retained for operational analysis
+WeatherDelay,float64,BTS source field retained for operational analysis
+NASDelay,float64,BTS source field retained for operational analysis
+SecurityDelay,float64,BTS source field retained for operational analysis
+LateAircraftDelay,float64,BTS source field retained for operational analysis
+Airline,object,IATA reporting-airline code used for analysis
+IsCancelled,int64,"1 if flight was cancelled, else 0"
+IsDiverted,int64,"1 if flight was diverted, else 0"
+IsArrivalDelayed15,float64,1 if arrival delay is at least 15 minutes
+IsDepartureDelayed15,float64,1 if departure delay is at least 15 minutes
+ScheduledDepHour,int64,Hour extracted from scheduled departure HHMM
+DeparturePeriod,object,Scheduled departure time band
+DayName,object,Day-of-week label
+Route,object,Origin-Destination airport code pair
+CompletedFlight,int64,1 if neither cancelled nor diverted
